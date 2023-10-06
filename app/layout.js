@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
+const metadata = {
   title: "Web Dev Blog",
   description: "The best blog for web development",
 };

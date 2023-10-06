@@ -1,5 +1,4 @@
 import { NextResponse } from "next/server";
-import axios from "axios"; // Unused import
 import Post from "@/models/post";
 import { connectToDB } from "@/utils/db";
 
