@@ -24,9 +24,11 @@ export default function RootLayout({ children }) {
     >
       <html lang="en">
         <body className={inter.className}>
-          <Nav posts={posts} />
-          {children}
-          <Footer />
+          <div className="flex min-h-screen flex-col">
+            <Nav posts={posts} />
+            <div className="flex-grow">{children}</div>
+            <Footer />
+          </div>
         </body>
       </html>
     </PostsContext.Provider>
